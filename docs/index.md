@@ -5,11 +5,13 @@ title: Python Cookbooks
 
 # Python Cookbooks
 
-Practical Python recipes and implementation guides.
+> _Practical Python recipes and implementation guides._
 
 ---
 
 ## Available Cookbooks
+
+---
 
 ### CLI Applications
 
