@@ -7,31 +7,39 @@ title: Python Cookbooks
 
 Practical Python recipes and implementation guides.
 
-## Cookbooks
+---
+
+## Available Cookbooks
 
 ### CLI Applications
 
-- cli/create-a-typer-app.html
+Build command-line tools with Python.
+
+- Create a Typer Application
 
 ### Files and Configuration
+
+Work with configuration files and settings.
 
 - JSON Configuration
 - Environment Variables
 
 ### Web APIs
 
-- Basic GET Request
+Interact with external services.
+
+- Basic HTTP Requests
 - Authentication
 - Retries
 
 ### FastAPI
 
-Coming soon.
+Build modern Python APIs.
 
 ### Testing
 
-Coming soon.
+Write and maintain automated tests.
 
 ### AI Applications
 
-Coming soon.
+Build applications powered by LLMs.
