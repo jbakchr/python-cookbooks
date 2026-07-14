@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Create a Typer Application
 ---
 
@@ -27,9 +26,9 @@ Install Typer:
 
 ```bash
 pip install typer
-````
+```
 
-***
+---
 
 ## Recipe
 
@@ -68,7 +67,7 @@ Output:
 Hello Jonas!
 ```
 
-***
+---
 
 ## How It Works
 
@@ -101,7 +100,7 @@ python cli.py hello Jonas
 
 without needing to manually parse arguments.
 
-***
+---
 
 ## Automatic Help
 
@@ -130,21 +129,21 @@ python cli.py hello --help
 
 This is one of Typer's biggest advantages compared to manually parsing arguments.
 
-***
+---
 
 ## Why Use Typer?
 
 Typer provides:
 
-* simple syntax
-* excellent developer experience
-* automatic help generation
-* strong type hint integration
-* support for larger applications
+- simple syntax
+- excellent developer experience
+- automatic help generation
+- strong type hint integration
+- support for larger applications
 
 Many modern Python CLI projects use Typer because it scales from small scripts to larger tools.
 
-***
+---
 
 ## Project Structure
 
@@ -174,7 +173,7 @@ project/
 └── pyproject.toml
 ```
 
-***
+---
 
 ## Variations
 
@@ -192,7 +191,7 @@ Usage:
 python cli.py greet Jonas
 ```
 
-***
+---
 
 ### Options
 
@@ -214,7 +213,7 @@ Usage:
 python cli.py greet Jonas --uppercase
 ```
 
-***
+---
 
 ### Multiple Commands
 
@@ -245,35 +244,34 @@ python cli.py hello
 python cli.py goodbye
 ```
 
-***
+---
 
 ## When Would I Use This?
 
 Typer is a good choice when building:
 
-* developer tools
-* automation scripts
-* internal utilities
-* AI applications
-* personal productivity tools
-* data processing pipelines
+- developer tools
+- automation scripts
+- internal utilities
+- AI applications
+- personal productivity tools
+- data processing pipelines
 
 Many projects start as a simple Typer application and later evolve into larger tools.
 
-***
+---
 
 ## Related Recipes
 
-* Add Command Arguments
-* Add Command Options
-* Interactive User Prompts
-* Rich Terminal Output
-* Configuration Files
-* Package a CLI Tool
+- Add Command Arguments
+- Add Command Options
+- Interactive User Prompts
+- Rich Terminal Output
+- Configuration Files
+- Package a CLI Tool
 
-***
+---
 
 ## Official Documentation
 
-* <https://typer.tiangolo.com/>
-
+- <https://typer.tiangolo.com/>

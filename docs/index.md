@@ -15,7 +15,7 @@ Practical Python recipes and implementation guides.
 
 Build command-line tools with Python.
 
-- Create a Typer Application
+- [Create a Typer Application](cli/create-a-typer-app)
 
 ### Files and Configuration
 
